@@ -10,9 +10,9 @@ const secondWord = prompt('inserisci un seconda parola');
 // Stampo la parola più lunga
 
 if(firstWord.length > secondWord.length){
-    console.log(`La prima parola (${firstWord}) è più lunga della seconda (${secondWord})`);
+    console.log(`La parola più corta è: (${secondWord}) la parola più lunga è: (${firstWord})`);
 } else if (secondWord.length > firstWord.length){
-    console.log(`La seconda parola (${secondWord}) è più lunga della prima (${firstWord})`);
+    console.log(`La parola più corta è: (${firstWord}) la parola più lunga è: (${secondWord})`);
 
 } else{
     console.log(`Le parole inserite hanno la stessa lunghezza (${firstWord}) (${secondWord})`);
